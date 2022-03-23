@@ -6,12 +6,16 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # SECURITY WARNING: Modify this secret key if using in production!
 SECRET_KEY = "6few3nci_q_o@l1dlbk81%wcxe!*6r29yu629&d97!hiqat9fa"
 
-DEFAULT_AUTO_FIELD='django.db.models.AutoField'
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": os.path.join(BASE_DIR, "db.sqlite3"),
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'demo_3',
+        'USER': 'ravshanyusupov',
+        'PASSWORD': 'MwE5l6LHY6l42sGfyAhX',
+        'HOST': 'database-1.cppn2xcop13o.us-east-1.rds.amazonaws.com',
+        'PORT': '54324'
     }
 }
 

@@ -256,9 +256,9 @@ updater.dispatcher.add_handler(MessageHandler(Filters.text, begin))
 updater.dispatcher.add_handler(MessageHandler(Filters.text, middle_handler))
 updater.dispatcher.add_handler(CommandHandler('test_begin', test_begin))
 updater.dispatcher.add_handler(CallbackQueryHandler(test_query))
-
 updater.dispatcher.add_handler(CommandHandler('help', help))
 updater.dispatcher.add_handler(CallbackQueryHandler(error))
+
 
 updater.start_polling()
 updater.idle()

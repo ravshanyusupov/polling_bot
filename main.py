@@ -15,7 +15,7 @@ from telegram.ext import Dispatcher, CommandHandler, MessageHandler, Filters, Ca
 from db.models import Test
 
 
-updater = Updater('5165224717:AAEupT4vO3ZBD5FQS6x6T-EyZtqEoZCwm54')
+updater = Updater('5165224717:AAE4d2mnpJqMgo8K2kGU35vkkkduqfU6pl0')
 
 list = {}
 global_page = {}
